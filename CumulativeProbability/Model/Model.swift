@@ -45,7 +45,7 @@ class Model {
         }
         
         var retVal = n
-        for _ in 1...p{
+        for _ in 1...p-1{
             retVal = retVal * n
         }
         return retVal
