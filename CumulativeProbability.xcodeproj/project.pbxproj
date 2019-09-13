@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		632F7527232974990060C19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632F7526232974990060C19D /* AppDelegate.swift */; };
 		632F7529232974990060C19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632F7528232974990060C19D /* ViewController.swift */; };
-		632F752F232974990060C19D /* CumulativeProbability.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 632F752D232974990060C19D /* CumulativeProbability.xcdatamodeld */; };
 		632F75312329749A0060C19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632F75302329749A0060C19D /* Assets.xcassets */; };
 		632F753D232975990060C19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632F753B232975990060C19D /* LaunchScreen.storyboard */; };
 		632F7540232975FD0060C19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632F753E232975FD0060C19D /* Main.storyboard */; };
+		633DC65B232BEF3B00E19CB5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633DC65A232BEF3B00E19CB5 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		632F7523232974990060C19D /* CumulativeProbability.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CumulativeProbability.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		632F7526232974990060C19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		632F7528232974990060C19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		632F752E232974990060C19D /* CumulativeProbability.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CumulativeProbability.xcdatamodel; sourceTree = "<group>"; };
 		632F75302329749A0060C19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		632F75352329749A0060C19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632F753C232975990060C19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		632F753F232975FD0060C19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CumulativeProbability/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633DC65A232BEF3B00E19CB5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,11 @@
 		632F7525232974990060C19D /* CumulativeProbability */ = {
 			isa = PBXGroup;
 			children = (
+				633DC659232BEF1E00E19CB5 /* Model */,
 				632F754223297C000060C19D /* View */,
 				632F754123297BF50060C19D /* Control */,
 				632F75302329749A0060C19D /* Assets.xcassets */,
 				632F75352329749A0060C19D /* Info.plist */,
-				632F752D232974990060C19D /* CumulativeProbability.xcdatamodeld */,
 			);
 			path = CumulativeProbability;
 			sourceTree = "<group>";
@@ -81,6 +81,14 @@
 				632F753B232975990060C19D /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		633DC659232BEF1E00E19CB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				633DC65A232BEF3B00E19CB5 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632F752F232974990060C19D /* CumulativeProbability.xcdatamodeld in Sources */,
+				633DC65B232BEF3B00E19CB5 /* Model.swift in Sources */,
 				632F7529232974990060C19D /* ViewController.swift in Sources */,
 				632F7527232974990060C19D /* AppDelegate.swift in Sources */,
 			);
@@ -356,19 +364,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		632F752D232974990060C19D /* CumulativeProbability.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				632F752E232974990060C19D /* CumulativeProbability.xcdatamodel */,
-			);
-			currentVersion = 632F752E232974990060C19D /* CumulativeProbability.xcdatamodel */;
-			path = CumulativeProbability.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 632F751B232974990060C19D /* Project object */;
 }
